@@ -4,6 +4,18 @@ Scan subdomains from certificate transparency logs (https://crt.sh)
 
 ## Installation
 
+### Download binary
+
+Download the binary based on your OS and architecture from the [release](https://github.com/AnikHasibul/crtscan/releases) page.
+
+### From command line
+
+```bash
+bash -c 'wget https://github.com/AnikHasibul/crtscan/releases/download/v1.0.0/crtscan_1.0.0_Linux_x86_64.tar.gz; tar -xvzf crtscan_1.0.0_Linux_x86_64.tar.gz; sudo mv crtscan /usr/local/bin/crtscan'
+```
+
+### From source
+
 To install/build from source with [Golang](https://golang.org):
 
 ```bash
